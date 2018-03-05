@@ -222,35 +222,67 @@ input[type=submit] {
 /* For Moblie Phone screen size and smaller */
 
 @media screen and (max-width: 640px) {
+
+    /* for all pages */
+
+  #masthead {
+    position: static;
+  }
+
   #logo {
     width: 100%;
     text-align: center;
   }
+
   nav {
     width: 100%;
     text-align: center;
   }
+
+    /* for About/Home page */
+
   .my-photo {
+    width: 100%;
+  }
+
+  .main-container p {
+    width: 100%;
+  }
+
+    /* for Portfolio page */
+    
+  .work {
     width: 100%;
   }
 
 }
 
-/**/
+/* for tablets and pads */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 641px) and (max-width: 768px) {
+
+  .main-section {
+    width: 100%;
+  }
+
+  .my-photo {
+    width: 50%;
+  }
 
 }
 
 
-/**/
+/* for laptops */
 
-@media screen and (max-width: 980px) {
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  .main-section {
+    width: 50%;
+  }
 
 }
 
-/**/
+/* for larger screens */
 
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 981px) {
 
 }
