@@ -247,7 +247,7 @@ input[type=submit] {
     /* for About/Home page */
 
   .my-photo {
-    width: 90%;
+    width: 100%;
   }
 
   .main-section {
@@ -260,8 +260,9 @@ input[type=submit] {
     /* for Portfolio page */
 
   .work {
-    width: 90%;
+    width: 100%;
   }
+
 
 }
 
