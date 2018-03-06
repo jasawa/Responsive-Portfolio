@@ -225,8 +225,13 @@ input[type=submit] {
 
     /* for all pages */
 
+  #main-container {
+      padding-top: 0;
+    }
+
   #masthead {
     position: static;
+  
   }
 
   #logo {
@@ -242,17 +247,20 @@ input[type=submit] {
     /* for About/Home page */
 
   .my-photo {
-    width: 100%;
+    width: 90%;
   }
 
-  .main-container p {
-    width: 100%;
+  .main-section {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
   }
 
     /* for Portfolio page */
-    
+
   .work {
-    width: 100%;
+    width: 90%;
   }
 
 }
@@ -260,13 +268,26 @@ input[type=submit] {
 /* for tablets and pads */
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
+  #logo {
+    margin-left: 5%;
+  }
+
+  nav {
+    margin-right: 5%;
+  }
 
   .main-section {
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .my-photo {
     width: 50%;
+  }
+
+  .work {
+    width: 45%;
   }
 
 }
@@ -275,9 +296,27 @@ input[type=submit] {
 /* for laptops */
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
-  .main-section {
-    width: 50%;
+  #logo {
+    margin-left: 30px;
   }
+
+  nav {
+    margin-right: 30px;
+  }
+
+  .main-section {
+    width: 60%;
+    margin-left: 30px;
+  }
+
+  .my-photo {
+    width: 100%;
+  }
+
+  .work {
+    width: 100%;
+  } 
+
 
 }
 
