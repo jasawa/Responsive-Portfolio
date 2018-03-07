@@ -63,6 +63,8 @@ h3 {
   border-bottom: 2px solid #ccc;
 }
 
+/* Added animation to logo with @keyframe */
+
 #logo {
   float: left;
   width: 250px;
@@ -75,6 +77,22 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: #4aaaa5;}
+  to {background-color: blue;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color:#4aaaa5;}
+  to {background-color: blue;}
 }
 
 nav {
